@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual env
+.venv/
+venv/
+
+# Data, checkpoints, logs (generated)
+data/
+runs/
+*.pt
+*.ckpt
+logs/
+*.jsonl
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
